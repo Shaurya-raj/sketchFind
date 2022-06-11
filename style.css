@@ -1,0 +1,21 @@
+canvas{
+    border: 3px solid blueviolet;
+    margin-top: 50px;
+    animation: colorChange 5s 2s infinite;
+
+}
+@keyframes colorChange{
+    from{box-shadow:  1px 1px 15px 20px lightblue ;}
+    to{box-shadow:  1px 1px 15px 20px purple;}
+}
+body{
+    text-align: center;
+}
+.btn-success:hover{
+    background-color:crimson;
+}
+h1{
+    font-family: fantasy;
+    color: darkslategrey;
+    text-decoration: underline dotted;
+}
