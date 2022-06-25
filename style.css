@@ -1,21 +1,36 @@
+.modal-content{
+    width: 80%;
+}
+.carousel-inner{
+background-color: whitesmoke;
+}
+
+h1{
+    background-color: dodgerblue;
+    margin-top: 0px;
+    padding:5px;
+}
+
+#show_sketch{
+    float: right;
+}
+
 canvas{
-    border: 3px solid blueviolet;
-    margin-top: 50px;
-    animation: colorChange 5s 2s infinite;
+    border-width: 4px;
+    border-radius: 30px;
+    border-style: dashed;
+    animation: halo 3s infinite ;
+}
+
+@keyframes halo{
+    0%{box-shadow: 10px 10px 10px 10px peachpuff;}
+    50%{box-shadow:10px 10px 10px 10px #FFFF6E;}
+    100%{box-shadow:10px 10px 10px 10px peachpuff;}
 
 }
-@keyframes colorChange{
-    from{box-shadow:  1px 1px 15px 20px lightblue ;}
-    to{box-shadow:  1px 1px 15px 20px purple;}
+
+p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
-    text-align: center;
-}
-.btn-success:hover{
-    background-color:crimson;
-}
-h1{
-    font-family: fantasy;
-    color: darkslategrey;
-    text-decoration: underline dotted;
-}
+
